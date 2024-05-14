@@ -7,3 +7,6 @@
     react-dom: ^18.2.0
     react-icon: ^1.0.0
     react-redux: ^9.1.2
+
+npm insatll
+npm run dev

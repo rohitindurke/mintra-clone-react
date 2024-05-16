@@ -4,13 +4,14 @@ import {IoPersonCircleOutline} from '@react-icons/all-files/io5/IoPersonCircleOu
 import { IoBag } from '@react-icons/all-files/io5/IoBag'
 import { GiFastArrow } from "@react-icons/all-files/gi/GiFastArrow";
 import { FaSearch } from "@react-icons/all-files/fa/FaSearch";
+import { Link } from 'react-router-dom';
 
 let Header = ({click, setClick})=>{
     return (
         <>
         <header>
         <div className="logo_container">
-            <a href="#"><img className="myntra_home" src={myntraLogo} alt="Myntra Home"/></a>
+            <Link to="/"><img className="myntra_home" src={myntraLogo} alt="Myntra Home"/></Link>
         </div>
         <nav className="nav_bar">
             <a href="#">Men</a>
@@ -27,19 +28,19 @@ let Header = ({click, setClick})=>{
         </div>
         <div className="action_bar">
             <div className="action_container">
-            <IoPersonCircleOutline/>
+          <Link to="/profile"><IoPersonCircleOutline/></Link>
                 <span className="action_name">Profile</span>
                
             </div>
 
             <div className="action_container">
-               <GiFastArrow></GiFastArrow>
+               <Link to="/wishList"><GiFastArrow></GiFastArrow></Link>
                 <span className="action_name">Wishlist</span>
             </div>
 
             <div className="action_container">
-                <IoBag></IoBag>
-                <span className="action_name" >Bag</span>
+            <Link to="/Bag">  <IoBag></IoBag></Link>
+              <span className="action_name" >Bag</span>
                 <span className="bag-item-count">0</span>
                 
             </div>

@@ -1,8 +1,18 @@
-# React + Vite
+#Dependencies
+  
+  @react-icons/all-files: ^4.1.0
+  
+  @reduxjs/toolkit:^2.2.4
+  
+    bootstrap:^5.3.3
+    
+    react": "^18.2.0
+    
+    react-dom: ^18.2.0
+    
+    react-icon: ^1.0.0
+    
+    react-redux: ^9.1.2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm insatll
+npm run dev

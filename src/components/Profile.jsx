@@ -1,14 +1,14 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import React from "react";
+
+import LogIn from "./form/LogIn";
+
 const Pofile = () => {
   return (
     <div>
-      <Header/>
-      <center><h1>this is profile page</h1></center>
-      <Footer/>
+      <LogIn/>  
+   
     </div>
-  )
-}
+  );
+};
 
-export default Pofile
+export default Pofile;

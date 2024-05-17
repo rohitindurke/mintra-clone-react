@@ -6,6 +6,7 @@ import Bag from './route/Bag.jsx'
 import {createBrowserRouter ,RouterProvider} from "react-router-dom";
 import Profile from './components/Profile.jsx'
 import WishList from './components/WishList.jsx'
+import Otp from './components/form/Otp.jsx'
   
 
 const router =createBrowserRouter([
@@ -27,6 +28,10 @@ element:<App/>
 {
   path:"/wishList",
   element:<WishList/>
+},
+{
+ path:"/OTP",
+ element:<Otp/>
 }
 ]);
 

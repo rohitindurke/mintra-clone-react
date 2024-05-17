@@ -17,6 +17,8 @@ const Home = () =>{
             stars: 4.5,
             count: 1400,
         }
+
+        
     }
     return(
         <>

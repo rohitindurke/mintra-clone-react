@@ -1,20 +1,16 @@
 import Header from "../components/Header";
-import BagSummery from '../components/BagSummery'
+import BagSummery from "../components/BagSummery";
 import Footer from "../components/Footer";
 
-
-
 const Bag = () => {
-  return(
+  return (
     <>
-     <Header/>
-     
-           <BagSummery/>
-           <Footer/>
-    
+      <Header />
+
+      <BagSummery />
+      <Footer />
     </>
-  )
- 
+  );
 };
 
 export default Bag;

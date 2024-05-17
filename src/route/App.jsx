@@ -8,7 +8,6 @@ let App = () =>{
     return(
         <>
             <Header/>
-          
             <Home/>
             <Footer/>
         </>

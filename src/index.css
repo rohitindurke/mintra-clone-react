@@ -379,3 +379,9 @@
   .spinner {
     margin: 100px 0px;
   }
+ 
+ #firstRow{
+ 
+  display: flex;
+  justify-content: space-between;
+ }

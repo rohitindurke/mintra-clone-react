@@ -15,4 +15,5 @@
     react-redux: ^9.1.2
 
 npm insatll
+
 npm run dev

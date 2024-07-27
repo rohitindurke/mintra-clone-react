@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Asap', sans-serif;
+  background-color: #FCEEEA;
+  
+}
+
+.navbar {
+  width: 0%;
+  background-color: #cf3a3a;
+  color: white;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+ 
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 60px; /* Adjust based on navbar height */
+  box-sizing: border-box;
+  padding-top: 0%;
+}
+
+#box {
+  height: 700px;
+  width: 400px;
+  background-color: #FEFFFE;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.btn {
+  width: 340px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #FE3E6C;
+  border: #FE3E6C;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 340px;
+  height: 38px;
+}
+
+.note {
+  color: gray;
+  font-style: bold;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h3 {
+  margin-bottom: 18px;
+}
+
+
+
+.content {
+  padding: 15px;
+}
+
+.login-image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 25px;
+  margin-top: 1px;
+  height: 150px;
+  width: 400px;
+  padding-left: 0;
+  padding-top: 0; 
+ 
+}
